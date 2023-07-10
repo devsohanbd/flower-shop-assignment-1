@@ -14,7 +14,7 @@ body{
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
     padding: 0px 160px;
-    position: fixed;
+    position: static;
 }
 .header-info{
     margin-top: 197px;
@@ -53,3 +53,111 @@ body{
     margin-bottom: -47px;
 }
 /* header section end here */
+
+/* Feature Flower Section Start here */
+.feature-heading{
+    text-align: center;
+    margin-top: 138px;
+}
+.feature-title{
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Lato';
+    color: #272727;
+}
+.feture-description{
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Lato';
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 25px;
+    margin: 24px 430px 48px;
+}
+.feature-img-container{
+    width: 75%;
+    height: 70vh;
+    background: #FFF;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-flower-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 370px;
+    height: 430px;
+    position: static;
+}
+.feature-flower-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 370px;
+    height: 430px;
+    position: static;
+}
+.feature-flower-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 370px;
+    height: 430px;
+    position: static;
+}
+.flower-img-1{
+    width: 254px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.flower-img-2{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.flower-img-3{
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.image-description{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Feature Flower Section end here */
+
+/* optional Section Start here */
+.optional-section{
+    width: 75%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 100px
+}
+.optional-icon{
+    width: 70px;
+    padding-bottom: 20px;
+}
+.optional-item-description{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.80);
+}
+/* optional Section Start here */
+
+
+
