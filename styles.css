@@ -6,6 +6,53 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Nav section start here - this section is extra section */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    background-color: #f5e4dfa3;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    font-size: 36px;
+    font-family: Impact;
+    color: #ec5425;
+    text-shadow: 05px 5px 2px rgb(152, 245, 157);
+}
+.logo-box a{
+    text-decoration: none;
+}
+.logo-color{
+    color: #1d5d2a;
+}
+.menus{
+    display: flex;
+    gap: 15px;
+}
+.menu-item{
+    font-size: 18px;
+    padding: 18px 20px 18px 20px;
+    position: relative;
+    list-style: none;
+}
+.menu-item a{
+    text-decoration: none;
+}
+.menu-item a:hover{
+    background-color: #2c8e40;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: "Lato";
+}
+/* Nav section end here */
+
 /* header section start here */
 .header-container{
     height: 90vh;
@@ -160,7 +207,7 @@ body{
     font-weight: 600;
     color: rgba(39, 39, 39, 0.80);
 }
-/* optional Section Start here */
+/* optional Section end here */
 
 /* hot deal section start here */
 .hot-deal-section{
@@ -225,6 +272,73 @@ body{
 .insta-img-pic{
  width: 100%;
 }
+/* instagram section end here */
+
+/* blog section start here - this section is extra section */
+.blog-title-box{
+    text-align: center;
+    margin-top: 30px;
+}
+.blog-title{
+    color: rgba(58, 7, 244, 0.863);
+    font-size: 48px;
+    font-family: 'Lato';
+    font-weight: 800;
+    padding-top: 0px;
+}
+.blog-title-description{
+    color: rgba(90, 177, 31, 0.863);
+    font-size: 36px;
+    font-family: 'Lato';
+    font-weight: 600;
+    padding-top: 30px;
+}
+.blog-post-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 0px 140px 0px;
+}
+.blog-post{
+    width: 365px;
+    height: 460px;
+    background-color: antiquewhite;
+}
+.blog-post-img{
+    width: 365px;
+}
+.blog-post-title{
+    color: rgba(2, 2, 2, 0.962);
+    font-family: 'Lato';
+    padding: 16px;
+    line-height: 25px;
+}
+.blog-post-description{
+    color: rgba(15, 15, 15, 0.6);
+    font-family: 'Lato';
+    padding: 16px;
+    line-height: 25px;
+}
+.blog-button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(230, 105, 74);
+    font-size: 16px;
+    position: bottom right;
+    cursor: pointer;
+    color: antiquewhite;
+    float: right;
+    margin-top: 2px;
+}
+.blog-button:hover{
+    color: blue;
+    background-color: greenyellow;
+}
+/* blog section end here */
+
 /* Latest Deal section start here */
 .subscribe-container{
     width: 75%;
@@ -260,7 +374,7 @@ body{
 .email-box{
     padding: 16px 313px 16px 16px;
 }
-/* Latest Deal section end here */
+/* Latest Deal section end here *
 
 /* Footer section start here */
 .footer-container{
@@ -290,17 +404,14 @@ body{
     line-height: 24px;
     padding: 24px 0px 24px 0px;
 }
-.copywrite{
+.copyright{
     color: rgba(255, 255, 255, 0.40);
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 400;
 }
-.copywrite a{
+.copyright a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.40);
 }
-
-
-
 /* Footer section end here */
