@@ -144,7 +144,8 @@ body{
     text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-top: 100px
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .optional-icon{
     width: 70px;
@@ -159,5 +160,39 @@ body{
 }
 /* optional Section Start here */
 
+/* hot deal section start here */
+.hot-deal-section{
+    height: 63vh;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-info{
+    text-align: center;
+}
+.hot-deal-title{
+    font-size: 33px;
+    font-family: 'Lato';
 
+}
+.hot-deal-description{
+    font-family: 'Lato';
+    padding: 16px;
+    line-height: 25px;
+
+}
+.hot-deal-image{
+
+}
+.hot-deal-picture{
+    width: 250px;
+    margin-left: -200px;
+}
+.off-color{
+    color: #E55473;
+}
+/* Footer section start here */
 
