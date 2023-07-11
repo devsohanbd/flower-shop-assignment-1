@@ -7,7 +7,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Nav section start here - this section is extra section */
+/* Nav section start - this section is extra section */
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -36,30 +36,32 @@ body{
     gap: 15px;
 }
 .menu-item{
-    font-size: 18px;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
     padding: 18px 20px 18px 20px;
-    position: relative;
+    position: static;
     list-style: none;
 }
 .menu-item a{
     text-decoration: none;
+    color:#e54d0c;
+    
 }
 .menu-item a:hover{
-    background-color: #2c8e40;
-    padding: 12px 20px 12px 20px;
     border-radius: 10px;
-    color: aliceblue;
+    color: rgb(58, 29, 248);
     font-family: "Lato";
 }
-/* Nav section end here */
+/* Nav section end */
 
-/* header section start here */
+/* header section start */
 .header-container{
     height: 90vh;
     display: flex;
     justify-content: start;
     align-items: center;
-    background-color: rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.1);
     padding: 0px 160px;
     position: static;
 }
@@ -103,9 +105,9 @@ body{
     width: 510px;
     margin-bottom: -47px;
 }
-/* header section end here */
+/* header section end */
 
-/* Feature Flower Section Start here */
+/* Feature Flower Section Start */
 .feature-heading{
     text-align: center;
     margin-top: 138px;
@@ -175,14 +177,17 @@ body{
     text-decoration: underline;
     margin-top: 15px;
     color: #272727;
-    text-align: center;
     font-family: 'Lato';
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
+    cursor: pointer;
 }
-/* Feature Flower Section end here */
+.image-description:hover{
+    color: #35df57;
+}
+/* Feature Flower Section end */
 
-/* optional Section Start here */
+/* optional Section Start */
 .optional-section{
     width: 75%;
     height: 30vh;
@@ -195,6 +200,7 @@ body{
     background: rgba(39, 39, 39, 0.05);
     margin-top: 100px;
     margin-bottom: 100px;
+    border-radius: 10px;
 }
 .optional-icon{
     width: 70px;
@@ -203,13 +209,13 @@ body{
 .optional-item-description{
     text-align: center;
     font-family: 'Lato';
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: rgba(39, 39, 39, 0.80);
 }
-/* optional Section end here */
+/* optional Section end */
 
-/* hot deal section start here */
+/* hot deal section start */
 .hot-deal-section{
     height: 63vh;
     width: 100%;
@@ -241,9 +247,9 @@ body{
 .off-color{
     color: #E55473;
 }
-/* hot deal section end here */
+/* hot deal section end */
 
-/* instagram section start here */
+/* instagram section start */
 .instagram-container{
     text-align: center;
     margin-top: 120px;
@@ -267,17 +273,16 @@ body{
     align-items: center;
     margin: auto;
     gap: 20px;
-    padding: 48px 0px 128px 0px;
+    padding: 48px 0px 100px 0px;
 }
 .insta-img-pic{
  width: 100%;
 }
-/* instagram section end here */
+/* instagram section end */
 
-/* blog section start here - this section is extra section */
+/* blog section start - this section is extra section */
 .blog-title-box{
     text-align: center;
-    margin-top: 30px;
 }
 .blog-title{
     color: rgba(58, 7, 244, 0.863);
@@ -299,15 +304,17 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 30px 0px 140px 0px;
+    padding: 30px 0px 110px 0px;
 }
 .blog-post{
     width: 365px;
     height: 460px;
     background-color: antiquewhite;
+    border-radius: 10px;
 }
 .blog-post-img{
     width: 365px;
+    border-radius: 10px;
 }
 .blog-post-title{
     color: rgba(2, 2, 2, 0.962);
@@ -337,9 +344,83 @@ body{
     color: blue;
     background-color: greenyellow;
 }
-/* blog section end here */
+/* blog section end */
 
-/* Latest Deal section start here */
+/* testimonial section start */
+.testimonial-title{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #0851f0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.hr{
+    width: 75%;
+    height: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #f3b823;
+    border: none;
+    margin-top: 30px;
+}
+.testimonial-title-description{
+    text-align: center;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.testimonial-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+    margin-top: 100px;
+}
+.testimonial-box{
+    width: 370px;
+    height: 350px;
+    background-color: rgba(229, 84, 115, 0.1);
+    position: relative;
+    text-align: center;
+}
+.testimonial-box:hover{
+    cursor: pointer;
+    box-shadow: 4px 8px 5px rgba(125, 115, 115, 0.408);
+}
+.testimonial-user{
+    width: 150px;
+    border-radius: 100%;
+    position: relative;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    border: 12px solid white;
+}
+.testimonial-description{
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    font-family: 'Lato';
+}
+.shop-name{
+    color: rgb(10, 167, 49);
+    font-weight: bold;
+    padding: 0pc 5px;
+}
+.client-name{
+    text-align: center;
+    color: #f39b18;
+    margin-top: 20px;
+}
+.client-name small{
+    color:#8b23f3b6
+}
+/* testimonial section end */
+
+/* Latest Deal section start */
 .subscribe-container{
     width: 75%;
     height: 350px;
@@ -350,13 +431,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    border-radius: 10px;
 }
 .subscribe-title{
     color: #272727;
     font-family: 'Lato';
     font-size: 40px;
     font-weight: 800;
-    padding-top: 90px;
+    padding-top: 70px;
 }
 .subscribe-description{
     color: rgba(39, 39, 39, 0.60);
@@ -372,11 +454,13 @@ body{
     gap: 20px;
 }
 .email-box{
-    padding: 16px 313px 16px 16px;
+    padding: 20px 313px 20px 16px;
+    border-radius: 8px;
+    border: none;
 }
-/* Latest Deal section end here *
+/* Latest Deal section end *
 
-/* Footer section start here */
+/* Footer section start */
 .footer-container{
     width: 100%;
     height: 45vh;
@@ -414,4 +498,4 @@ body{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.40);
 }
-/* Footer section end here */
+/* Footer section end */
