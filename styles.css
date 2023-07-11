@@ -45,8 +45,12 @@ body{
     border-style: none;
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 16px 36px;
     cursor: pointer;
+}
+.btn-primary:hover{
+    color: blue;
+    background-color: greenyellow;
 }
 .header-img{
     width: 510px;
@@ -65,13 +69,11 @@ body{
     font-family: 'Lato';
     color: #272727;
 }
-.feture-description{
-    font-size: 18px;
-    font-weight: 100;
+.feature-description{
     font-family: 'Lato';
-    color: rgba(39, 39, 39, 0.60);
+    padding: 16px;
     line-height: 25px;
-    margin: 24px 430px 48px;
+    color: rgba(39, 39, 39, 0.60);
 }
 .feature-img-container{
     width: 75%;
@@ -182,9 +184,7 @@ body{
     font-family: 'Lato';
     padding: 16px;
     line-height: 25px;
-
-}
-.hot-deal-image{
+    color: rgba(39, 39, 39, 0.60);
 
 }
 .hot-deal-picture{
@@ -194,5 +194,113 @@ body{
 .off-color{
     color: #E55473;
 }
-/* Footer section start here */
+/* hot deal section end here */
 
+/* instagram section start here */
+.instagram-container{
+    text-align: center;
+    margin-top: 120px;
+}
+.insta-header{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    font-family: 'Lato';
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato';
+    padding: 16px;
+    line-height: 25px;
+}
+.insta-img-container{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    padding: 48px 0px 128px 0px;
+}
+.insta-img-pic{
+ width: 100%;
+}
+/* Latest Deal section start here */
+.subscribe-container{
+    width: 75%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(./flower-asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.subscribe-title{
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 90px;
+}
+.subscribe-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    padding: 16px 0px 48px 0px;
+}
+.subscribe-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.email-box{
+    padding: 16px 313px 16px 16px;
+}
+/* Latest Deal section end here */
+
+/* Footer section start here */
+.footer-container{
+    width: 100%;
+    height: 45vh;
+    background: #111010;
+    color: white;
+    margin-top: 100px;
+}
+.footer-info{
+    text-align: center;
+    padding: 70px 0px;
+}
+.footer-title{
+    color: rgba(255, 255, 255, 0.588);
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 800;
+}
+.flower{
+    color: #E55473;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    padding: 24px 0px 24px 0px;
+}
+.copywrite{
+    color: rgba(255, 255, 255, 0.40);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+}
+.copywrite a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+
+
+/* Footer section end here */
