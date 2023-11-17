@@ -1,501 +1,498 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
-body{
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+body {
+	font-family: "Lato", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 /* Nav section start - this section is extra section */
-.nav-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 0px;
-    background-color: #f5e4dfa3;
-    position: sticky;
-    top: 0;
+.nav-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0px;
+	background-color: #f5e4dfa3;
+	position: sticky;
+	top: 0;
 }
-.logo{
-    font-size: 36px;
-    font-family: Impact;
-    color: #ec5425;
-    text-shadow: 05px 5px 2px rgb(152, 245, 157);
+.logo {
+	font-size: 36px;
+	font-family: Impact;
+	color: #ec5425;
+	text-shadow: 05px 5px 2px rgb(152, 245, 157);
 }
-.logo-box a{
-    text-decoration: none;
+.logo-box a {
+	text-decoration: none;
 }
-.logo-color{
-    color: #1d5d2a;
+.logo-color {
+	color: #1d5d2a;
 }
-.menus{
-    display: flex;
-    gap: 15px;
+.menus {
+	display: flex;
+	gap: 15px;
 }
-.menu-item{
-    font-family: "Lato";
-    font-size: 20px;
-    font-weight: 700;
-    padding: 18px 20px 18px 20px;
-    position: static;
-    list-style: none;
+.menu-item {
+	font-family: "Lato";
+	font-size: 20px;
+	font-weight: 700;
+	padding: 18px 20px 18px 20px;
+	position: static;
+	list-style: none;
 }
-.menu-item a{
-    text-decoration: none;
-    color:#e54d0c;
-    
+.menu-item a {
+	text-decoration: none;
+	color: #e54d0c;
 }
-.menu-item a:hover{
-    border-radius: 10px;
-    color: rgb(58, 29, 248);
-    font-family: "Lato";
+.menu-item a:hover {
+	border-radius: 10px;
+	color: rgb(58, 29, 248);
+	font-family: "Lato";
 }
 /* Nav section end */
 
 /* header section start */
-.header-container{
-    height: 90vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    background-color: rgba(229, 84, 115, 0.1);
-    padding: 0px 160px;
-    position: static;
+.header-container {
+	height: 90vh;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	background-color: rgba(229, 84, 115, 0.1);
+	padding: 0px 160px;
+	position: static;
 }
-.header-info{
-    margin-top: 197px;
-    margin-bottom: 147px;
+.header-info {
+	margin-top: 197px;
+	margin-bottom: 147px;
 }
-.header-title{
-    font-size: 60px;
-    font-family: 'Lato';
-    color: #272727;
-    font-weight: 800;
-    margin-bottom: 32px;
-    margin-right: 190px;
+.header-title {
+	font-size: 60px;
+	font-family: "Lato";
+	color: #272727;
+	font-weight: 800;
+	margin-bottom: 32px;
+	margin-right: 190px;
 }
-.header-description{
-    font-size: 18px;
-    font-family: 'Lato';
-    color: rgba(39, 39, 39, 0.60);
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 32px;
-    padding-right: 125px;
+.header-description {
+	font-size: 18px;
+	font-family: "Lato";
+	color: rgba(39, 39, 39, 0.6);
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 32px;
+	padding-right: 125px;
 }
-.btn-primary{
-    font-size: 20px;
-    color: #FFF;
-    font-family: 'Lato';
-    font-weight: 400;
-    border-style: none;
-    border-radius: 8px;
-    background: #E55473;
-    padding: 16px 36px;
-    cursor: pointer;
+.btn-primary {
+	font-size: 20px;
+	color: #fff;
+	font-family: "Lato";
+	font-weight: 400;
+	border-style: none;
+	border-radius: 8px;
+	background: #e55473;
+	padding: 16px 36px;
+	cursor: pointer;
 }
-.btn-primary:hover{
-    color: blue;
-    background-color: greenyellow;
+.btn-primary:hover {
+	color: blue;
+	background-color: greenyellow;
 }
-.header-img{
-    width: 510px;
-    margin-bottom: -47px;
+.header-img {
+	width: 510px;
+	margin-bottom: -100px;
 }
 /* header section end */
 
 /* Feature Flower Section Start */
-.feature-heading{
-    text-align: center;
-    margin-top: 138px;
+.feature-heading {
+	text-align: center;
+	margin-top: 138px;
 }
-.feature-title{
-    font-size: 35px;
-    font-weight: 800;
-    font-family: 'Lato';
-    color: #272727;
+.feature-title {
+	font-size: 35px;
+	font-weight: 800;
+	font-family: "Lato";
+	color: #272727;
 }
-.feature-description{
-    font-family: 'Lato';
-    padding: 16px;
-    line-height: 25px;
-    color: rgba(39, 39, 39, 0.60);
+.feature-description {
+	font-family: "Lato";
+	padding: 16px;
+	line-height: 25px;
+	color: rgba(39, 39, 39, 0.6);
 }
-.feature-img-container{
-    width: 75%;
-    height: 70vh;
-    background: #FFF;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.feature-img-container {
+	width: 75%;
+	height: 70vh;
+	background: #fff;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-.feature-flower-1{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    width: 370px;
-    height: 430px;
-    position: static;
+.feature-flower-1 {
+	border-radius: 300px 300px 0px 0px;
+	background: rgba(167, 33, 98, 0.15);
+	width: 370px;
+	height: 430px;
+	position: static;
 }
-.feature-flower-2{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    width: 370px;
-    height: 430px;
-    position: static;
+.feature-flower-2 {
+	border-radius: 300px 300px 0px 0px;
+	background: rgba(5, 151, 160, 0.15);
+	width: 370px;
+	height: 430px;
+	position: static;
 }
-.feature-flower-3{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    width: 370px;
-    height: 430px;
-    position: static;
+.feature-flower-3 {
+	border-radius: 300px 300px 0px 0px;
+	background: rgba(71, 125, 17, 0.15);
+	width: 370px;
+	height: 430px;
+	position: static;
 }
-.flower-img-1{
-    width: 254px;
-    display: block;
-    margin: 0 auto;
-    padding-top: 80px;
+.flower-img-1 {
+	width: 254px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 80px;
 }
-.flower-img-2{
-    width: 300px;
-    display: block;
-    margin: 0 auto;
-    padding-top: 90px;
+.flower-img-2 {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 90px;
 }
-.flower-img-3{
-    width: 260px;
-    display: block;
-    margin: 0 auto;
-    padding-top: 40px;
+.flower-img-3 {
+	width: 260px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 40px;
 }
-.image-description{
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 15px;
-    color: #272727;
-    font-family: 'Lato';
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
+.image-description {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 15px;
+	color: #272727;
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
 }
-.image-description:hover{
-    color: #35df57;
+.image-description:hover {
+	color: #35df57;
 }
 /* Feature Flower Section end */
 
 /* optional Section Start */
-.optional-section{
-    width: 75%;
-    height: 30vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-radius: 10px;
+.optional-section {
+	width: 75%;
+	height: 30vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 8px;
+	background: rgba(39, 39, 39, 0.05);
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 10px;
 }
-.optional-icon{
-    width: 70px;
-    padding-bottom: 20px;
+.optional-icon {
+	width: 70px;
+	padding-bottom: 20px;
 }
-.optional-item-description{
-    text-align: center;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-weight: 600;
-    color: rgba(39, 39, 39, 0.80);
+.optional-item-description {
+	text-align: center;
+	font-family: "Lato";
+	font-size: 20px;
+	font-weight: 600;
+	color: rgba(39, 39, 39, 0.8);
 }
 /* optional Section end */
 
 /* hot deal section start */
-.hot-deal-section{
-    height: 63vh;
-    width: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+.hot-deal-section {
+	height: 63vh;
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 8px;
+	background: rgba(229, 84, 115, 0.05);
 }
-.hot-deal-info{
-    text-align: center;
+.hot-deal-info {
+	text-align: center;
 }
-.hot-deal-title{
-    font-size: 33px;
-    font-family: 'Lato';
-
+.hot-deal-title {
+	font-size: 33px;
+	font-family: "Lato";
 }
-.hot-deal-description{
-    font-family: 'Lato';
-    padding: 16px;
-    line-height: 25px;
-    color: rgba(39, 39, 39, 0.60);
-
+.hot-deal-description {
+	font-family: "Lato";
+	padding: 16px;
+	line-height: 25px;
+	color: rgba(39, 39, 39, 0.6);
 }
-.hot-deal-picture{
-    width: 250px;
-    margin-left: -200px;
+.hot-deal-picture {
+	width: 250px;
+	margin-left: -200px;
 }
-.off-color{
-    color: #E55473;
+.off-color {
+	color: #e55473;
 }
 /* hot deal section end */
 
 /* instagram section start */
-.instagram-container{
-    text-align: center;
-    margin-top: 120px;
+.instagram-container {
+	text-align: center;
+	margin-top: 120px;
 }
-.insta-header{
-    font-size: 40px;
-    font-weight: 800;
-    color: #272727;
-    font-family: 'Lato';
+.insta-header {
+	font-size: 40px;
+	font-weight: 800;
+	color: #272727;
+	font-family: "Lato";
 }
-.insta-description{
-    color: rgba(39, 39, 39, 0.60);
-    font-family: 'Lato';
-    padding: 16px;
-    line-height: 25px;
+.insta-description {
+	color: rgba(39, 39, 39, 0.6);
+	font-family: "Lato";
+	padding: 16px;
+	line-height: 25px;
 }
-.insta-img-container{
-    width: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    gap: 20px;
-    padding: 48px 0px 100px 0px;
+.insta-img-container {
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	gap: 20px;
+	padding: 48px 0px 100px 0px;
 }
-.insta-img-pic{
- width: 100%;
+.insta-img-pic {
+	width: 100%;
 }
 /* instagram section end */
 
 /* blog section start - this section is extra section */
-.blog-title-box{
-    text-align: center;
+.blog-title-box {
+	text-align: center;
 }
-.blog-title{
-    color: rgba(58, 7, 244, 0.863);
-    font-size: 48px;
-    font-family: 'Lato';
-    font-weight: 800;
-    padding-top: 0px;
+.blog-title {
+	color: rgba(58, 7, 244, 0.863);
+	font-size: 48px;
+	font-family: "Lato";
+	font-weight: 800;
+	padding-top: 0px;
 }
-.blog-title-description{
-    color: rgba(90, 177, 31, 0.863);
-    font-size: 36px;
-    font-family: 'Lato';
-    font-weight: 600;
-    padding-top: 30px;
+.blog-title-description {
+	color: rgba(90, 177, 31, 0.863);
+	font-size: 36px;
+	font-family: "Lato";
+	font-weight: 600;
+	padding-top: 30px;
 }
-.blog-post-container{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 30px 0px 110px 0px;
+.blog-post-container {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 30px 0px 110px 0px;
 }
-.blog-post{
-    width: 365px;
-    height: 460px;
-    background-color: antiquewhite;
-    border-radius: 10px;
+.blog-post {
+	width: 365px;
+	height: 460px;
+	background-color: antiquewhite;
+	border-radius: 10px;
 }
-.blog-post-img{
-    width: 365px;
-    border-radius: 10px;
+.blog-post-img {
+	width: 365px;
+	border-radius: 10px;
 }
-.blog-post-title{
-    color: rgba(2, 2, 2, 0.962);
-    font-family: 'Lato';
-    padding: 16px;
-    line-height: 25px;
+.blog-post-title {
+	color: rgba(2, 2, 2, 0.962);
+	font-family: "Lato";
+	padding: 16px;
+	line-height: 25px;
 }
-.blog-post-description{
-    color: rgba(15, 15, 15, 0.6);
-    font-family: 'Lato';
-    padding: 16px;
-    line-height: 25px;
+.blog-post-description {
+	color: rgba(15, 15, 15, 0.6);
+	font-family: "Lato";
+	padding: 16px;
+	line-height: 25px;
 }
-.blog-button{
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(230, 105, 74);
-    font-size: 16px;
-    position: bottom right;
-    cursor: pointer;
-    color: antiquewhite;
-    float: right;
-    margin-top: 2px;
+.blog-button {
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(230, 105, 74);
+	font-size: 16px;
+	position: bottom right;
+	cursor: pointer;
+	color: antiquewhite;
+	float: right;
+	margin-top: 2px;
 }
-.blog-button:hover{
-    color: blue;
-    background-color: greenyellow;
+.blog-button:hover {
+	color: blue;
+	background-color: greenyellow;
 }
 /* blog section end */
 
 /* testimonial section start */
-.testimonial-title{
-    text-align: center;
-    font-size: 36px;
-    font-family: 'Lato';
-    font-weight: bold;
-    color: #0851f0;
-    padding-bottom: 10px;
-    text-transform: uppercase;
+.testimonial-title {
+	text-align: center;
+	font-size: 36px;
+	font-family: "Lato";
+	font-weight: bold;
+	color: #0851f0;
+	padding-bottom: 10px;
+	text-transform: uppercase;
 }
-.hr{
-    width: 75%;
-    height: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    background: #f3b823;
-    border: none;
-    margin-top: 30px;
+.hr {
+	width: 75%;
+	height: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #f3b823;
+	border: none;
+	margin-top: 30px;
 }
-.testimonial-title-description{
-    text-align: center;
-    font-family: serif;
-    font-weight: 400;
-    font-size: 20px;
+.testimonial-title-description {
+	text-align: center;
+	font-family: serif;
+	font-weight: 400;
+	font-size: 20px;
 }
-.testimonial-container{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left:  auto;
-    margin-right: auto;
-    margin-bottom: 140px;
-    margin-top: 100px;
+.testimonial-container {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 140px;
+	margin-top: 100px;
 }
-.testimonial-box{
-    width: 370px;
-    height: 350px;
-    background-color: rgba(229, 84, 115, 0.1);
-    position: relative;
-    text-align: center;
+.testimonial-box {
+	width: 370px;
+	height: 350px;
+	background-color: rgba(229, 84, 115, 0.1);
+	position: relative;
+	text-align: center;
 }
-.testimonial-box:hover{
-    cursor: pointer;
-    box-shadow: 4px 8px 5px rgba(125, 115, 115, 0.408);
+.testimonial-box:hover {
+	cursor: pointer;
+	box-shadow: 4px 8px 5px rgba(125, 115, 115, 0.408);
 }
-.testimonial-user{
-    width: 150px;
-    border-radius: 100%;
-    position: relative;
-    margin-top: -70px;
-    margin-bottom: 20px;
-    border: 12px solid white;
+.testimonial-user {
+	width: 150px;
+	border-radius: 100%;
+	position: relative;
+	margin-top: -70px;
+	margin-bottom: 20px;
+	border: 12px solid white;
 }
-.testimonial-description{
-    margin-bottom: 30px;
-    padding: 5px 20px;
-    font-family: 'Lato';
+.testimonial-description {
+	margin-bottom: 30px;
+	padding: 5px 20px;
+	font-family: "Lato";
 }
-.shop-name{
-    color: rgb(10, 167, 49);
-    font-weight: bold;
-    padding: 0pc 5px;
+.shop-name {
+	color: rgb(10, 167, 49);
+	font-weight: bold;
+	padding: 0pc 5px;
 }
-.client-name{
-    text-align: center;
-    color: #f39b18;
-    margin-top: 20px;
+.client-name {
+	text-align: center;
+	color: #f39b18;
+	margin-top: 20px;
 }
-.client-name small{
-    color:#8b23f3b6
+.client-name small {
+	color: #8b23f3b6;
 }
 /* testimonial section end */
 
 /* Latest Deal section start */
-.subscribe-container{
-    width: 75%;
-    height: 350px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    background-image: url(./flower-asset/Rectangle\ 9.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    border-radius: 10px;
+.subscribe-container {
+	width: 75%;
+	height: 350px;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background-image: url(./flower-asset/Rectangle\ 9.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-radius: 10px;
 }
-.subscribe-title{
-    color: #272727;
-    font-family: 'Lato';
-    font-size: 40px;
-    font-weight: 800;
-    padding-top: 70px;
+.subscribe-title {
+	color: #272727;
+	font-family: "Lato";
+	font-size: 40px;
+	font-weight: 800;
+	padding-top: 70px;
 }
-.subscribe-description{
-    color: rgba(39, 39, 39, 0.60);
-    font-family: 'Lato';
-    font-size: 18px;
-    font-weight: 400;
-    padding: 16px 0px 48px 0px;
+.subscribe-description {
+	color: rgba(39, 39, 39, 0.6);
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 400;
+	padding: 16px 0px 48px 0px;
 }
-.subscribe-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.subscribe-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
-.email-box{
-    padding: 20px 313px 20px 16px;
-    border-radius: 8px;
-    border: none;
+.email-box {
+	padding: 20px 313px 20px 16px;
+	border-radius: 8px;
+	border: none;
 }
 /* Latest Deal section end *
 
 /* Footer section start */
-.footer-container{
-    width: 100%;
-    height: 45vh;
-    background: #111010;
-    color: white;
-    margin-top: 100px;
+.footer-container {
+	width: 100%;
+	height: 45vh;
+	background: #111010;
+	color: white;
+	margin-top: 100px;
 }
-.footer-info{
-    text-align: center;
-    padding: 70px 0px;
+.footer-info {
+	text-align: center;
+	padding: 70px 0px;
 }
-.footer-title{
-    color: rgba(255, 255, 255, 0.588);
-    font-family: 'Lato';
-    font-size: 36px;
-    font-weight: 800;
+.footer-title {
+	color: rgba(255, 255, 255, 0.588);
+	font-family: "Lato";
+	font-size: 36px;
+	font-weight: 800;
 }
-.flower{
-    color: #E55473;
+.flower {
+	color: #e55473;
 }
-.footer-description{
-    color: rgba(255, 255, 255, 0.90);
-    font-family: 'Lato';
-    font-size: 14px;
-    line-height: 24px;
-    padding: 24px 0px 24px 0px;
+.footer-description {
+	color: rgba(255, 255, 255, 0.9);
+	font-family: "Lato";
+	font-size: 14px;
+	line-height: 24px;
+	padding: 24px 0px 24px 0px;
 }
-.copyright{
-    color: rgba(255, 255, 255, 0.40);
-    font-family: 'Lato';
-    font-size: 16px;
-    font-weight: 400;
+.copyright {
+	color: rgba(255, 255, 255, 0.4);
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 400;
 }
-.copyright a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.40);
+.copyright a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.4);
 }
 /* Footer section end */
