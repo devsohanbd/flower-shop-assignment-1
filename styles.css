@@ -3,8 +3,8 @@
 	padding: 0;
 }
 body {
-	font-family: "Lato", sans-serif;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Nav section start - this section is extra section */
@@ -36,7 +36,7 @@ body {
 	gap: 15px;
 }
 .menu-item {
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 20px;
 	font-weight: 700;
 	padding: 18px 20px 18px 20px;
@@ -50,13 +50,13 @@ body {
 .menu-item a:hover {
 	border-radius: 10px;
 	color: rgb(58, 29, 248);
-	font-family: "Lato";
+	font-family: 'Lato';
 }
 /* Nav section end */
 
 /* header section start */
 .header-container {
-	height: 90vh;
+	height: 91vh;
 	display: flex;
 	justify-content: start;
 	align-items: center;
@@ -70,7 +70,7 @@ body {
 }
 .header-title {
 	font-size: 60px;
-	font-family: "Lato";
+	font-family: 'Lato';
 	color: #272727;
 	font-weight: 800;
 	margin-bottom: 32px;
@@ -78,7 +78,7 @@ body {
 }
 .header-description {
 	font-size: 18px;
-	font-family: "Lato";
+	font-family: 'Lato';
 	color: rgba(39, 39, 39, 0.6);
 	font-weight: 400;
 	line-height: 30px;
@@ -88,7 +88,7 @@ body {
 .btn-primary {
 	font-size: 20px;
 	color: #fff;
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-weight: 400;
 	border-style: none;
 	border-radius: 8px;
@@ -102,7 +102,7 @@ body {
 }
 .header-img {
 	width: 510px;
-	margin-bottom: -100px;
+	margin-bottom: -143px;
 }
 /* header section end */
 
@@ -114,11 +114,11 @@ body {
 .feature-title {
 	font-size: 35px;
 	font-weight: 800;
-	font-family: "Lato";
+	font-family: 'Lato';
 	color: #272727;
 }
 .feature-description {
-	font-family: "Lato";
+	font-family: 'Lato';
 	padding: 16px;
 	line-height: 25px;
 	color: rgba(39, 39, 39, 0.6);
@@ -176,7 +176,7 @@ body {
 	text-decoration: underline;
 	margin-top: 15px;
 	color: #272727;
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 18px;
 	font-weight: 600;
 	cursor: pointer;
@@ -207,7 +207,7 @@ body {
 }
 .optional-item-description {
 	text-align: center;
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 20px;
 	font-weight: 600;
 	color: rgba(39, 39, 39, 0.8);
@@ -229,10 +229,10 @@ body {
 }
 .hot-deal-title {
 	font-size: 33px;
-	font-family: "Lato";
+	font-family: 'Lato';
 }
 .hot-deal-description {
-	font-family: "Lato";
+	font-family: 'Lato';
 	padding: 16px;
 	line-height: 25px;
 	color: rgba(39, 39, 39, 0.6);
@@ -255,11 +255,11 @@ body {
 	font-size: 40px;
 	font-weight: 800;
 	color: #272727;
-	font-family: "Lato";
+	font-family: 'Lato';
 }
 .insta-description {
 	color: rgba(39, 39, 39, 0.6);
-	font-family: "Lato";
+	font-family: 'Lato';
 	padding: 16px;
 	line-height: 25px;
 }
@@ -284,14 +284,14 @@ body {
 .blog-title {
 	color: rgba(58, 7, 244, 0.863);
 	font-size: 48px;
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-weight: 800;
 	padding-top: 0px;
 }
 .blog-title-description {
 	color: rgba(90, 177, 31, 0.863);
 	font-size: 36px;
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-weight: 600;
 	padding-top: 30px;
 }
@@ -315,13 +315,13 @@ body {
 }
 .blog-post-title {
 	color: rgba(2, 2, 2, 0.962);
-	font-family: "Lato";
+	font-family: 'Lato';
 	padding: 16px;
 	line-height: 25px;
 }
 .blog-post-description {
 	color: rgba(15, 15, 15, 0.6);
-	font-family: "Lato";
+	font-family: 'Lato';
 	padding: 16px;
 	line-height: 25px;
 }
@@ -347,7 +347,7 @@ body {
 .testimonial-title {
 	text-align: center;
 	font-size: 36px;
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-weight: bold;
 	color: #0851f0;
 	padding-bottom: 10px;
@@ -400,7 +400,7 @@ body {
 .testimonial-description {
 	margin-bottom: 30px;
 	padding: 5px 20px;
-	font-family: "Lato";
+	font-family: 'Lato';
 }
 .shop-name {
 	color: rgb(10, 167, 49);
@@ -432,14 +432,14 @@ body {
 }
 .subscribe-title {
 	color: #272727;
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 40px;
 	font-weight: 800;
 	padding-top: 70px;
 }
 .subscribe-description {
 	color: rgba(39, 39, 39, 0.6);
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 18px;
 	font-weight: 400;
 	padding: 16px 0px 48px 0px;
@@ -460,18 +460,18 @@ body {
 /* Footer section start */
 .footer-container {
 	width: 100%;
-	height: 45vh;
+	height: 30vh;
 	background: #111010;
 	color: white;
 	margin-top: 100px;
 }
 .footer-info {
 	text-align: center;
-	padding: 70px 0px;
+	padding: 40px 0px;
 }
 .footer-title {
 	color: rgba(255, 255, 255, 0.588);
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 36px;
 	font-weight: 800;
 }
@@ -480,14 +480,14 @@ body {
 }
 .footer-description {
 	color: rgba(255, 255, 255, 0.9);
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 14px;
 	line-height: 24px;
 	padding: 24px 0px 24px 0px;
 }
 .copyright {
 	color: rgba(255, 255, 255, 0.4);
-	font-family: "Lato";
+	font-family: 'Lato';
 	font-size: 16px;
 	font-weight: 400;
 }
